@@ -59,6 +59,8 @@ It's worth renewing the AWS credentials before you destroy just in case they mig
 
 You should be able to run `terraform destroy` to remove all the infrastructure.
 
+If you find the terraform destroy works for a period of time then fails, you can run destroy again and it should tidy remaining aspects up.
+
 ### Submission process
 
 1. Fork this repository
