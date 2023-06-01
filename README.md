@@ -28,7 +28,7 @@ Run the usual `init` followed by `plan` and then `apply` with Terraform
 
 Then we wait....It can take some time for the cluster to be made so make sure your laptop remains active with an internet connection
 
-This can take up to 20 minutes so use this time to checkout the [further reading resources](#further-reading)
+This can take up to 30 minutes so use this time to checkout the [further reading resources](#further-reading)
 
 ### Connecting to the cluster with kubectl
 
