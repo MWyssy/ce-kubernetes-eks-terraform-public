@@ -40,6 +40,8 @@ aws eks --region $(terraform output -raw region) update-kubeconfig \
     --name $(terraform output -raw cluster_name)
 ```
 
+You might want to verify that `kubectl` can connect - try something like `kubectl get services` or `kubectl get nodes`
+
 ### Deploying a container
 
 Now let's try deploying a container and seeing if you can access it.
